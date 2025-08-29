@@ -6,7 +6,7 @@ const portfolioItems = [
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classicn"],
+    tag: ["Rumah 1 Lantai", "Classic"],
     img: "../img/minimalis modern/Rumah 1 Lantai-1.png",
   },
   {
@@ -86,7 +86,7 @@ const portfolioItems = [
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
     img: "../img/classic/Rumah 2 Lantai-7.png",
   },
   {
