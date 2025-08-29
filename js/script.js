@@ -1,32 +1,32 @@
 const portfolioItems = [
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Minimalis Modern"],
+    tag: ["Rumah 1 Lantai", "Classic"],
     img: "../img/minimalis modern/Rumah 1 Lantai.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Minimalis Modern"],
+    tag: ["Rumah 1 Lantai", "Classicn"],
     img: "../img/minimalis modern/Rumah 1 Lantai-1.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Minimalis Modern"],
+    tag: ["Rumah 1 Lantai", "Classic"],
     img: "../img/minimalis modern/Rumah 1 Lantai-2.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Minimalis Modern"],
+    tag: ["Rumah 1 Lantai", "Classic"],
     img: "../img/minimalis modern/Rumah 1 Lantai-3.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Minimalis Modern"],
+    tag: ["Rumah 1 Lantai", "Classic"],
     img: "../img/minimalis modern/Rumah 1 Lantai-4.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Minimalis Modern"],
+    tag: ["Rumah 1 Lantai", "Classic"],
     img: "../img/minimalis modern/Rumah 1 Lantai-5.png",
   },
   {
@@ -70,18 +70,18 @@ const portfolioItems = [
     img: "../img/classic/Rumah 2 Lantai-3.png",
   },
   {
-    title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    title: "Rumah 2 Lantai Minimalis Moderen",
+    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
     img: "../img/classic/Rumah 2 Lantai-4.png",
   },
   {
-    title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    title: "Rumah 2 Lantai Minimalis Moderen",
+    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
     img: "../img/classic/Rumah 2 Lantai-5.png",
   },
   {
-    title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    title: "Rumah 2 Lantai Minimalis Moderen",
+    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
     img: "../img/classic/Rumah 2 Lantai-6.png",
   },
   {
