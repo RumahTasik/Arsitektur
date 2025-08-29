@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsitek RumahTasik</title>
+    <link rel="icon" href="img/icon.jpeg">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  </head>
+  <body>
+    <!-- Navbar -->
+<header class="navbar">
+  <div class="container nav-wrapper">
+    <div class="logo"><i class="fa-solid fa-compass-drafting"></i> <span>Rumah Tasik</span>
+        <span class="brand-tag">Arsitek</span></div>
+
+    <nav class="nav-links">
+      <a href="#layanan">Layanan</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#harga">Harga</a>
+      <a href="testimoni/testimoni.html">Testimoni</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <a href="#home" class="kontak">Konsultasi Gratis →</a>
+
+    <!-- Hamburger Menu -->
+    <div id="hamburger-menu">
+<span></span>
+<span></span>
+<span></span>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="konsultasiModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Form Konsultasi</h2>
+    <form id="konsultasiForm">
+      <label>Nama</label>
+      <input type="text" id="nama"  placeholder="Nama Lengkap" required />
+
+      <label>Nomor WA</label>
+      <input type="text" id="wa"  placeholder="Nomor yang dapat di hubngi" required />
+
+
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+</div>
+
+   <!-- Hero -->
+<section class="hero">
+  <div class="hero-overlay">
+    <div class="container hero-content">
+      <h1>
+       Jasa Arsitek Profesional <br />
+        <span class="highlight">Estetik & Fungsional</span>
+      </h1>
+      <p>Kami adalah tim arsitek berpengalaman yang siap membantu Anda dari tahap
+        perencanaan </p>
+      <p>  hingga pembangunan rumah idaman dengan desain modern & fungsional</p>
+      <div class="hero-buttons">
+        <a href="#portfolio">Lihat Karya</a>
+        <a href="#harga">Lihat Harga</a>
+      </div>
+      <div class="hero-meta">⭐ 4.9/5 rating &nbsp;&nbsp;</div>
+    </div>
+  </div>
+</section>
+
+    <!-- Services -->
+    <section id="layanan" class="section">
+  <div class="container">
+    <h2>Layanan</h2>
+    <p>Desain 3D dan 2D menyeluruh untuk rumah, kantor, dan komersial.</p>
+    
+    <!-- Grid -->
+    <div class="grid-3">
+      <!-- Card 1 -->
+      <div class="card">
+        <h3>🏠 Desain Denah Rumah 3D dan 2D</h3>
+        <p>Dari dapur hingga walk-in closet, kami wujudkan sesuai kebutuhan.</p>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="card">
+        <h3>📏 Fit-Out Bangunan</h3>
+        <p>Produktivitas naik dengan tata ruang ergonomis dan akustik nyaman.</p>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="card">
+        <h3>🎨 Desain Interior Rumah</h3>
+        <p>Konsep personal, dan layout optimal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p>Beberapa proyek pilihan kami.</p>
+        <div class="portfolio-filters">
+          <p class="filter-label"><i class="fas fa-filter"></i> Filter:</p>
+          <button class="btn secondary filter-btn active" data-filter="all">
+            Semua
+          </button>
+          <button class="btn secondary filter-btn" data-filter="Rumah 1 Lantai">
+            Rumah 1 Lantai
+          </button>
+          <button class="btn secondary filter-btn" data-filter="Rumah 2 Lantai">
+            Rumah 2 Lantai
+          </button>
+          <button class="btn secondary filter-btn" data-filter="Classic">
+            Classic
+          </button>
+          <button class="btn secondary filter-btn" data-filter="Minimalis Modern">
+            Minimalis Modern
+          </button>
+          <button class="btn secondary filter-btn" data-filter="Content Corer">
+            Content Corer
+          </button>
+          <button class="btn secondary filter-btn" data-filter="Skandinavian">
+            Skandinavian
+          </button>
+        </div>
+        <div class="grid-3 portfolio-grid" id="portfolioGrid">
+          <!-- Portfolio items injected by JS -->
+        </div>
+      </div>
+    </section>
+
+   <!-- Pricing -->
+    <section id="harga" class="section">
+      <div class="container">
+        <h2>Harga Paket</h2>
+        <p>Transparansi biaya dengan opsi fleksibel.</p>
+        <div class="grid-3">
+          <!-- Starter -->
+      <div class="pricing-card">
+        <h3>PAKET SILVER</h3>
+        <p class="price">Rp 25rb/m²</p>
+        <ul>
+          <li>Denah 2D</li>
+          <li>Denah 3D</li>
+          <li>Gambar Render 3D Eksterior (4 View )</li>
+        </ul>
+        <a href="#" 
+           class="btn-order" 
+           data-package="Paket Silver" 
+           data-price="Rp 25.000/m²">Pesan Paket</a>
+      </div>
+
+      <!-- Pro -->
+      <div class="pricing-card highlight">
+        <h3>PAKET PLATINUM</h3>
+        <p class="price">Rp 60rb/m²</p>
+        <ul>
+          <li>Denah 2D</li>
+          <li>Tampak dan Potong 2D</li>
+          <li>Denah 3D</li>
+          <li>Gambar Render 3D Eksterior (4-6 View)</li>
+          <li>Animasi Eksterior (1 Menit)</li>
+          <li>Gambar kerja</li>
+          <li>Rencana Anggaran Biaya (RAB)</li>
+        </ul>
+        <a href="#" 
+           class="btn-order" 
+           data-package="Paket Platinum" 
+           data-price="Rp 60.000/m²">Pesan Paket</a>
+      </div>
+
+      <!-- Turnkey -->
+      <div class="pricing-card">
+        <h3>PAKET GOLD</h3>
+        <p class="price">Rp 40rb/m²</p>
+        <ul>
+          <li>Denah 2D</li>
+          <li>Denah 3D</li>
+          <li>Gambar Render 3D Eksterior (4-6 View)</li>
+          <li>Animasi Eksterior(1 Menit)</li>
+        </ul>
+        <a href="#" 
+           class="btn-order" 
+           data-package="Paket Gold" 
+           data-price="Rp 40.000/m²">Pesan Paket</a>
+      </div>
+          </section>
+
+
+    <!-- Contact -->
+    <section id="kontak" class="Contact">
+        <div class="contact-info">
+          <a href="https://wa.me/6281381300825"><p>📞 +62 813-8130-0825</p></a>
+          <a href="mailto:niagaredja182@gmail.com"><p>✉ RumahTasik@gmail.com</p></a>
+          <a href="https://maps.app.goo.gl/2qZYz6hUnuMudQ8s9"><p>📍 Tasikmalaya, Indonesia</p></a>
+          <a href="https://www.instagram.com/rumah_tasik123/"><p><i class="fa-brands fa-instagram"></i>  RumahTasik</p></a>
+          <a href="https://www.tiktok.com/@rumahtasik12properti"><p><i class="fa-brands fa-tiktok"></i>RumahTasik</p></a>
+          <a href="https://www.facebook.com/depimm93"><p><i class="fa-brands fa-facebook"></i>RumahTasik</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 IT.RumahTasik — All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- script -->
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
