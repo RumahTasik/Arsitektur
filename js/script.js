@@ -56,17 +56,17 @@ const portfolioItems = [
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    tag: ["Rumah 2 Lantai", "MinimalisPedesaan"],
     img: "../img/classic/Rumah 2 Lantai-1.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    tag: ["Rumah 2 Lantai", "MinimalisPedesaan"],
     img: "../img/classic/Rumah 2 Lantai-2.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
-    tag: ["Rumah 2 Lantai", "Classic"],
+    tag: ["Rumah 2 Lantai", "MinimalisPedesaan"],
     img: "../img/classic/Rumah 2 Lantai-3.png",
   },
   {
