@@ -30,27 +30,27 @@ const portfolioItems = [
     img: "../img/minimalis modern/Rumah 1 Lantai-5.png",
   },
   {
-    title: "Rumah 1 Lantai Modern Scandinavian",
+    title: "Rumah 1 Lantai Moderen Scandinavian",
     tag: ["Rumah 1 Lantai", "Skandinavian"],
     img: "../img/Skandinavian/Rumah 1 Lantai-6.png",
   },
   {
-    title: "Rumah 1 Lantai Modern Scandinavian",
+    title: "Rumah 1 Lantai Moderen Scandinavian",
     tag: ["Rumah 1 Lantai", "Skandinavian"],
     img: "../img/Skandinavian/Rumah 1 Lantai-7.png",
   },
   {
-    title: "Rumah 1 Lantai Modern Scandinavian",
+    title: "Rumah 1 Lantai Moderen Scandinavian",
     tag: ["Rumah 1 Lantai", "Skandinavian"],
     img: "../img/Skandinavian/Rumah 1 Lantai-8.png",
   },
   {
-    title: "Rumah 1 Lantai Modern Scandinavian",
+    title: "Rumah 1 Lantai Moderen Scandinavian",
     tag: ["Rumah 1 Lantai", "Skandinavian"],
     img: "../img/Skandinavian/Rumah 1 Lantai-9.png",
   },
   {
-    title: "Rumah 1 Lantai Modern Scandinavian",
+    title: "Rumah 1 Lantai Moderen Scandinavian",
     tag: ["Rumah 1 Lantai", "Skandinavian"],
     img: "../img/Skandinavian/Rumah 1 Lantai-6.png",
   },
