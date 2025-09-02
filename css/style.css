@@ -13,11 +13,21 @@ body {
   margin: auto;
 }
 .navbar {
-  background: white;
-  border-bottom: 1px solid #eee;
-  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 1px solid #2aa52aff;
+  position: fixed;
   top: 0;
-  z-index: 1000;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .logo img {
+  height: 6.4rem;
 }
 .nav-wrapper {
   display: flex;
@@ -780,3 +790,4 @@ body {
     font-size: 1rem;
   }
 }
+
