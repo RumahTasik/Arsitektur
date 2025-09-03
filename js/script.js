@@ -1,228 +1,237 @@
 const portfolioItems = [
   {
-    title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classic"],
+    title: "Ny. Sri Wulan",
+    title1: "Panumbangan Kab.Tasikmalaya",
+    tag: "Classic",
     img: "../img/minimalis modern/Rumah 1 Lantai.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classic"],
+    tag: "Classic",
     img: "../img/minimalis modern/Rumah 1 Lantai-1.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classic"],
+    tag: "Classic",
     img: "../img/minimalis modern/Rumah 1 Lantai-2.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classic"],
+    tag: "Classic",
     img: "../img/minimalis modern/Rumah 1 Lantai-3.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classic"],
+    tag: "Classic",
     img: "../img/minimalis modern/Rumah 1 Lantai-4.png",
   },
   {
     title: "Rumah 1 Lantai Classic Modern",
-    tag: ["Rumah 1 Lantai", "Classic"],
+    tag: "Classic",
     img: "../img/minimalis modern/Rumah 1 Lantai-5.png",
   },
   {
-    title: "Rumah 1 Lantai Moderen Scandinavian",
-    tag: ["Rumah 1 Lantai", "Skandinavian"],
+    title: "Ndiepraz",
+    title1: "Perumahan Pelangi Kota Tasikmalaya",
+    tag: "Skandinavian",
     img: "../img/Skandinavian/Rumah 1 Lantai-6.png",
   },
   {
     title: "Rumah 1 Lantai Moderen Scandinavian",
-    tag: ["Rumah 1 Lantai", "Skandinavian"],
+    tag: "Skandinavian",
     img: "../img/Skandinavian/Rumah 1 Lantai-7.png",
   },
   {
     title: "Rumah 1 Lantai Moderen Scandinavian",
-    tag: ["Rumah 1 Lantai", "Skandinavian"],
+    tag: "Skandinavian",
     img: "../img/Skandinavian/Rumah 1 Lantai-8.png",
   },
   {
     title: "Rumah 1 Lantai Moderen Scandinavian",
-    tag: ["Rumah 1 Lantai", "Skandinavian"],
+    tag: "Skandinavian",
     img: "../img/Skandinavian/Rumah 1 Lantai-9.png",
   },
   {
     title: "Rumah 1 Lantai Moderen Scandinavian",
-    tag: ["Rumah 1 Lantai", "Skandinavian"],
+    tag: "Skandinavian",
     img: "../img/Skandinavian/Rumah 1 Lantai-6.png",
   },
   {
-    title: "Rumah 2 Lantai Minimalis Pedesaan",
-    tag: ["Rumah 2 Lantai", "MinimalisPedesaan"],
-    img: "../img/classic/Rumah 2 Lantai-1.png",
+    title: "Audio",
+    title1: "Seri Wangi Kab.Tasikmalaya",
+    tag: "Pedesaan",
+    img: "../img/pedesaan/Rumah 2 Lantai-1.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
-    tag: ["Rumah 2 Lantai", "MinimalisPedesaan"],
-    img: "../img/classic/Rumah 2 Lantai-2.png",
+    tag: "Pedesaan",
+    img: "../img/pedesaan/Rumah 2 Lantai-2.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
-    tag: ["Rumah 2 Lantai", "MinimalisPedesaan"],
-    img: "../img/classic/Rumah 2 Lantai-3.png",
+    tag: "Pedesaan",
+    img: "../img/pedesaan/Rumah 2 Lantai-3.png",
+  },
+  {
+    title: "HJ.Ayud",
+    title1: "Salam Nunggal Kota Tasikmalaya",
+    tag: "Classic1",
+    img: "../img/classic1/Rumah 2 Lantai-4.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Moderen",
-    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
-    img: "../img/classic/Rumah 2 Lantai-4.png",
+    tag: "Classic1",
+    img: "../img/classic1/Rumah 2 Lantai-5.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Moderen",
-    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
-    img: "../img/classic/Rumah 2 Lantai-5.png",
-  },
-  {
-    title: "Rumah 2 Lantai Minimalis Moderen",
-    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
-    img: "../img/classic/Rumah 2 Lantai-6.png",
+    tag: "Classic1",
+    img: "../img/classic1/Rumah 2 Lantai-6.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Minimalis Modern"],
-    img: "../img/classic/Rumah 2 Lantai-7.png",
+    tag: "Classic1",
+    img: "../img/classic1/Rumah 2 Lantai-7.png",
+  },
+  {
+    title: "HJ.Asep",
+    title1: "Sindang Kasih Kab.Ciamis",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-8.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-8.png",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-9.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-9.png",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-10.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-10.png",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-11.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-11.png",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-12.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-12.png",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-13.png",
   },
   {
     title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-13.png",
+    tag: "Classic2",
+    img: "../img/classic2/Rumah 2 Lantai-14.png",
   },
   {
-    title: "Rumah 2 Lantai Model Classic",
-    tag: ["Rumah 2 Lantai", "Classic"],
-    img: "../img/classic/Rumah 2 Lantai-14.png",
-  },
-  {
-    title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-15.png",
+    title: "Ny.Endro",
+    title1: "Kawali Kab.Ciamis",
+    tag: "Kontemporer1",
+    img: "../img/kontemporer1/Rumah 2 Lantai-15.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-16.png",
+    tag: "Kontemporer1",
+    img: "../img/kontemporer1/Rumah 2 Lantai-16.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-17.png",
+    tag: "Kontemporer1",
+    img: "../img/kontemporer1/Rumah 2 Lantai-17.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-18.png",
+    tag: "Kontemporer1",
+    img: "../img/kontemporer1/Rumah 2 Lantai-18.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-19.png",
+    tag: "Kontemporer1",
+    img: "../img/kontemporer1/Rumah 2 Lantai-19.png",
+  },
+  {
+    title: "Ny.Andini",
+    title1: "Cisaga Kab.Ciamis",
+    tag: "Kontemporer2",
+    img: "../img/kontemporer2/Rumah 2 Lantai-20.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-20.png",
+    tag: "Kontemporer1",
+    img: "../img/kontemporer1/Rumah 2 Lantai-21.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-21.png",
+    tag: "Kontemporer2",
+    img: "../img/kontemporer2/Rumah 2 Lantai-22.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-22.png",
+    tag: "Kontemporer2",
+    img: "../img/kontemporer2/Rumah 2 Lantai-23.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-23.png",
+    tag: "Kontemporer2",
+    img: "../img/kontemporer2/Rumah 2 Lantai-24.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-24.png",
+    tag: "Kontemporer2",
+    img: "../img/kontemporer2/Rumah 2 Lantai-25.png",
   },
   {
-    title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-25.png",
+    title: "Arid Ridwan",
+    title1: "Cigalontang Kab.Tasikmalaya",
+    tag: "Kontemporer3",
+    img: "../img/kontemporer3/Rumah 2 Lantai-26.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-26.png",
+    tag: "Kontemporer3",
+    img: "../img/kontemporer3/Rumah 2 Lantai-27.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-27.png",
+    tag: "Kontemporer3",
+    img: "../img/kontemporer3/Rumah 2 Lantai-28.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-28.png",
+    tag: "Kontemporer3",
+    img: "../img/kontemporer3/Rumah 2 Lantai-29.png",
   },
   {
-    title: "Rumah 2 Lantai Minimalis Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-29.png",
-  },
-  {
-    title: "Rumah 2 Lantai Minimalis Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-30.png",
+    title: "Syfa",
+    title1: "Cintaraja Kab.Tasikmalaya",
+    tag: "Kontemporer4",
+    img: "../img/kontemporer4/Rumah 2 Lantai-30.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-31.png",
+    tag: "Kontemporer4",
+    img: "../img/kontemporer4/Rumah 2 Lantai-31.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-32.png",
+    tag: "Kontemporer4",
+    img: "../img/kontemporer4/Rumah 2 Lantai-32.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-33.png",
+    tag: "Kontemporer4",
+    img: "../img/kontemporer4/Rumah 2 Lantai-33.png",
   },
   {
     title: "Rumah 2 Lantai Moderen Kontemporer",
-    tag: ["Rumah 2 Lantai", "Content Corer"],
-    img: "../img/content corer/Rumah 2 Lantai-34.png",
+    tag: "Kontemporer4",
+    img: "../img/kontemporer4/Rumah 2 Lantai-34.png",
   },
 ];
 
@@ -241,17 +250,14 @@ let currentGroup = [];
 const getRepresentativeItems = (filter = "all") => {
   const seen = new Set();
   return portfolioItems.filter((item) => {
-    const mainTag = item.tag[0];
-    const specificTag = item.tag[1];
+    const mainTag = item.tag;
+    const specificTag = item.tag;
 
     // kalau filter bukan "all", tetap ikuti filter biasa
     if (filter !== "all" && !item.tag.includes(filter)) return false;
 
     // kalau filter = "all", jangan pakai tag "Rumah 1 Lantai" atau "Rumah 2 Lantai" sebagai perwakilan
-    if (
-      filter === "all" &&
-      (specificTag === "Rumah 1 Lantai" || specificTag === "Rumah 2 Lantai")
-    ) {
+    if (filter === "all" && (specificTag === "" || specificTag === "")) {
       return false;
     }
 
@@ -274,13 +280,14 @@ const renderPortfolio = (filter = "all") => {
     div.innerHTML = `
       <img src="${item.img}" alt="${item.title}">
       <h4>${item.title}</h4>
+      <p>${item.title1}</P>
     `;
     portfolioGrid.appendChild(div);
 
     // event klik buka modal dengan semua gambar dari tag spesifik (tag[1])
     div.addEventListener("click", () => {
-      const specificTag = item.tag[1]; // pakai tag kedua: Classic / Skandinavian / Content Corer dll
-      currentGroup = portfolioItems.filter((p) => p.tag.includes(specificTag));
+      const specificTag = item.tag; // pakai tag kedua: Classic / Skandinavian / Content Corer dll
+      currentGroup = portfolioItems.filter((p) => p.tag === specificTag);
 
       // cari index sesuai gambar perwakilan yang diklik
       currentIndex = currentGroup.findIndex((p) => p.img === item.img);
@@ -293,6 +300,15 @@ const renderPortfolio = (filter = "all") => {
 function openModal(src) {
   portfolioModal.style.display = "flex";
   modalImg.src = src;
+
+  // kalau cuma 1 gambar, sembunyikan tombol prev/next
+  if (currentGroup.length <= 1) {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+  } else {
+    prevBtn.style.display = "block";
+    nextBtn.style.display = "block";
+  }
 }
 
 function showImage(step) {
@@ -315,16 +331,6 @@ portfolioModal.addEventListener("click", (e) => {
 // render awal
 renderPortfolio();
 
-// filter tombol
-document.querySelectorAll(".filter-btn").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    document
-      .querySelectorAll(".filter-btn")
-      .forEach((b) => b.classList.remove("active"));
-    btn.classList.add("active");
-    renderPortfolio(btn.dataset.filter);
-  });
-});
 // nomor WA admin (ganti dengan nomor kamu, pakai kode negara tanpa +)
 const adminNumber = "6281381300825";
 
