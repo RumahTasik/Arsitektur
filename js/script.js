@@ -226,32 +226,96 @@ const portfolioItems = [
   },
 ];
 
-const grid = document.getElementById("portfolioGrid");
-const renderPortfolio = (filter = "all") => {
-  grid.innerHTML = "";
-  portfolioItems
-    .filter((item) => {
-      if (filter === "all") return true;
+// ==== PORTFOLIO GRID + MODAL ====
+const portfolioGrid = document.getElementById("portfolioGrid");
+const portfolioModal = document.getElementById("portfolioModal");
+const modalImg = document.getElementById("modalImage");
+const closePortfolio = portfolioModal.querySelector(".close");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
 
-      if (Array.isArray(item.tag)) {
-        return item.tag.includes(filter);
-      }
+let currentIndex = 0;
+let currentGroup = [];
 
-      return item.tag === filter;
-    })
-    .forEach((item) => {
-      const div = document.createElement("div");
-      div.className = "card";
-      div.innerHTML = `
-      <a href="${item.img}" target="_blank">
-        <img src="${item.img}" alt="${item.title}"> </a>
-        <h4>${item.title}</h4>
-      `;
-      grid.appendChild(div);
-    });
+// ambil gambar perwakilan per tag utama
+const getRepresentativeItems = (filter = "all") => {
+  const seen = new Set();
+  return portfolioItems.filter((item) => {
+    const mainTag = item.tag[0];
+    const specificTag = item.tag[1];
+
+    // kalau filter bukan "all", tetap ikuti filter biasa
+    if (filter !== "all" && !item.tag.includes(filter)) return false;
+
+    // kalau filter = "all", jangan pakai tag "Rumah 1 Lantai" atau "Rumah 2 Lantai" sebagai perwakilan
+    if (
+      filter === "all" &&
+      (specificTag === "Rumah 1 Lantai" || specificTag === "Rumah 2 Lantai")
+    ) {
+      return false;
+    }
+
+    // pastikan tidak duplikat perwakilan berdasarkan tag spesifik
+    if (seen.has(specificTag)) return false;
+    seen.add(specificTag);
+
+    return true;
+  });
 };
+
+// render grid
+const renderPortfolio = (filter = "all") => {
+  portfolioGrid.innerHTML = "";
+  const reps = getRepresentativeItems(filter);
+
+  reps.forEach((item) => {
+    const div = document.createElement("div");
+    div.className = "card portfolio-item";
+    div.innerHTML = `
+      <img src="${item.img}" alt="${item.title}">
+      <h4>${item.title}</h4>
+    `;
+    portfolioGrid.appendChild(div);
+
+    // event klik buka modal dengan semua gambar dari tag spesifik (tag[1])
+    div.addEventListener("click", () => {
+      const specificTag = item.tag[1]; // pakai tag kedua: Classic / Skandinavian / Content Corer dll
+      currentGroup = portfolioItems.filter((p) => p.tag.includes(specificTag));
+
+      // cari index sesuai gambar perwakilan yang diklik
+      currentIndex = currentGroup.findIndex((p) => p.img === item.img);
+
+      openModal(currentGroup[currentIndex].img);
+    });
+  });
+};
+
+function openModal(src) {
+  portfolioModal.style.display = "flex";
+  modalImg.src = src;
+}
+
+function showImage(step) {
+  currentIndex =
+    (currentIndex + step + currentGroup.length) % currentGroup.length;
+  modalImg.src = currentGroup[currentIndex].img;
+}
+
+prevBtn.addEventListener("click", () => showImage(-1));
+nextBtn.addEventListener("click", () => showImage(1));
+closePortfolio.addEventListener(
+  "click",
+  () => (portfolioModal.style.display = "none")
+);
+
+portfolioModal.addEventListener("click", (e) => {
+  if (e.target === portfolioModal) portfolioModal.style.display = "none";
+});
+
+// render awal
 renderPortfolio();
 
+// filter tombol
 document.querySelectorAll(".filter-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
     document
@@ -261,7 +325,6 @@ document.querySelectorAll(".filter-btn").forEach((btn) => {
     renderPortfolio(btn.dataset.filter);
   });
 });
-
 // nomor WA admin (ganti dengan nomor kamu, pakai kode negara tanpa +)
 const adminNumber = "6281381300825";
 
