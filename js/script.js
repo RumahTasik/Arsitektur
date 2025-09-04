@@ -58,7 +58,7 @@ const portfolioItems = [
   },
   {
     title: "Audio",
-    title1: "Sari Wangi Kab.Tasikmalaya",
+    title1: "SariWangi Kab.Tasikmalaya",
     tag: "Pedesaan",
     img: "../img/Pedesaan/Rumah 2 Lantai-1.png",
   },
@@ -74,7 +74,7 @@ const portfolioItems = [
   },
   {
     title: "HJ.Ayud",
-    title1: "Salam Nunggal Kota Tasikmalaya",
+    title1: "Salamnunggal Kota Tasikmalaya",
     tag: "Classic1",
     img: "../img/classic1/Rumah 2 Lantai-4.png",
   },
@@ -95,7 +95,7 @@ const portfolioItems = [
   },
   {
     title: "HJ.Asep",
-    title1: "Sindang Kasih Kab.Ciamis",
+    title1: "SindangKasih Kab.Ciamis",
     tag: "Classic2",
     img: "../img/classic2/Rumah 2 Lantai-8.png",
   },
@@ -425,4 +425,5 @@ WA: ${wa}%0A`;
   const waUrl = `https://wa.me/${Number}?text=${message}`;
   window.open(waUrl, "_blank");
 });
+
 
