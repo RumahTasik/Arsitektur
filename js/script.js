@@ -58,7 +58,7 @@ const portfolioItems = [
   },
   {
     title: "Audio",
-    title1: "Seri Wangi Kab.Tasikmalaya",
+    title1: "Sari Wangi Kab.Tasikmalaya",
     tag: "Pedesaan",
     img: "../img/pedesaan/Rumah 2 Lantai-1.png",
   },
