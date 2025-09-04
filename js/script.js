@@ -60,17 +60,17 @@ const portfolioItems = [
     title: "Audio",
     title1: "Sari Wangi Kab.Tasikmalaya",
     tag: "Pedesaan",
-    img: "../img/pedesaan/Rumah 2 Lantai-1.png",
+    img: "../img/Pedesaan/Rumah 2 Lantai-1.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
     tag: "Pedesaan",
-    img: "../img/pedesaan/Rumah 2 Lantai-2.png",
+    img: "../img/Pedesaan/Rumah 2 Lantai-2.png",
   },
   {
     title: "Rumah 2 Lantai Minimalis Pedesaan",
     tag: "Pedesaan",
-    img: "../img/pedesaan/Rumah 2 Lantai-3.png",
+    img: "../img/Pedesaan/Rumah 2 Lantai-3.png",
   },
   {
     title: "HJ.Ayud",
@@ -425,3 +425,4 @@ WA: ${wa}%0A`;
   const waUrl = `https://wa.me/${Number}?text=${message}`;
   window.open(waUrl, "_blank");
 });
+
