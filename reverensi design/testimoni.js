@@ -1,10 +1,69 @@
-const portfolioItems = [
-  {
-    title: "Contoh",
-    tag: "Classic",
-    img: "/reverensi design/img/contoh.png",
-  },
-];
+const portfolioItems = [];
+for (let i = 1; i <= 22; i++) {
+  portfolioItems.push({
+    title: "American 1 Lantai",
+    tag: "American 1 Lantai",
+    img: `/reverensi design/img/American 1 Lantai/am (${i}).jpeg`,
+  });
+}
+
+for (let i = 1; i <= 80; i++) {
+  portfolioItems.push({
+    title: "Classic Modern 1 Lantai",
+    tag: "Classic Modern 1 Lantai",
+    img: `/reverensi design/img/Classic Modern 1 Lantai/cm (${i}).jpeg`,
+  });
+}
+
+for (let i = 1; i <= 11; i++) {
+  portfolioItems.push({
+    title: "Kontomporer",
+    tag: "Kontomporer",
+    img: `/reverensi design/img/Kontomporer/kt (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 5; i++) {
+  portfolioItems.push({
+    title: "Minimalis",
+    tag: "Minimalis",
+    img: `/reverensi design/img/Minimalis/min (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 34; i++) {
+  portfolioItems.push({
+    title: "Minimalis 1 Lantai",
+    tag: "Minimalis 1 Lantai",
+    img: `/reverensi design/img/Minimalis 1 Lantai/mn (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 25; i++) {
+  portfolioItems.push({
+    title: "Minimalis Modern 1 Lantai",
+    tag: "Minimalis Modern 1 Lantai",
+    img: `/reverensi design/img/Minimalis Modern 1 Lantai/mm (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 19; i++) {
+  portfolioItems.push({
+    title: "Scandinavian 1 Lantai",
+    tag: "Scandinavian 1 Lantai",
+    img: `/reverensi design/img/Scandinavian 1 Lantai/s (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 6; i++) {
+  portfolioItems.push({
+    title: "Scandinavian 2 Lantai",
+    tag: "Scandinavian 2 Lantai",
+    img: `/reverensi design/img/Scandinavian 2 Lantai/sc (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 8; i++) {
+  portfolioItems.push({
+    title: "Tropis Modern 1 Lantai",
+    tag: "Tropis Modern 1 Lantai",
+    img: `/reverensi design/img/Tropis Modern 1 Lantai/tm (${i}).jpeg`,
+  });
+}
 
 // ==== PORTFOLIO GRID + MODAL ====
 const portfolioGrid = document.getElementById("portfolioGrid");
@@ -51,7 +110,6 @@ const renderPortfolio = (filter = "all") => {
     div.innerHTML = `
       <img src="${item.img}" alt="${item.title}">
       <h4>${item.title}</h4>
-      <p>${item.title1}</P>
     `;
     portfolioGrid.appendChild(div);
 
