@@ -9,7 +9,7 @@ for (let i = 1; i <= 4; i++) {
   });
 }
 
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 4; i++) {
   portfolioItems.push({
     title: "Ndiepraz",
     title1: "Perumahan Pelangi Kota Tasikmalaya",
@@ -268,3 +268,4 @@ WA: ${wa}%0A`;
   const waUrl = `https://wa.me/${Number}?text=${message}`;
   window.open(waUrl, "_blank");
 });
+
