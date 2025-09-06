@@ -132,6 +132,12 @@ const renderPortfolio = (filter = "all") => {
       const specificTag = item.tag; // pakai tag kedua: Classic / Skandinavian / Content Corer dll
       currentGroup = portfolioItems.filter((p) => p.tag === specificTag);
 
+      // === PRELOAD semua gambar dalam group ===
+  currentGroup.forEach(p => {
+    const preload = new Image();
+    preload.src = p.img;
+  });
+
       // cari index sesuai gambar perwakilan yang diklik
       currentIndex = currentGroup.findIndex((p) => p.img === item.img);
 
@@ -268,4 +274,5 @@ WA: ${wa}%0A`;
   const waUrl = `https://wa.me/${Number}?text=${message}`;
   window.open(waUrl, "_blank");
 });
+
 
