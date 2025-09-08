@@ -1,0 +1,48 @@
+{
+  "rewrites": [
+    {
+      "source": "/reverensi-design",
+      "destination": "/reverensi-design/reverensi-design.html"
+    },
+    {
+      "source": "/layanan",
+      "destination": "/layanan/index.html#layanan"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/portfolio/index.html#portfolio"
+    },
+    {
+      "source": "/kontak",
+      "destination": "/kontak/index.html#kontak"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+
+    {
+      "source": "/reverensi design/reverensi-design.html",
+      "destination": "/reverensi-design",
+      "permanent": true
+    },
+    {
+      "source": "/layanan/index.html#layanan",
+      "destination": "/layanan",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/index.html#portfolio",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/kontak/index.html#kontak",
+      "destination": "/kontak",
+      "permanent": true
+    }
+  ]
+}

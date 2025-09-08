@@ -1,80 +1,67 @@
 const portfolioItems = [];
-
-for (let i = 1; i <= 4; i++) {
+for (let i = 1; i <= 22; i++) {
   portfolioItems.push({
-    title: "Ny. Sri Wulan",
-    title1: "Panumbangan Kab.Tasikmalaya",
-    tag: "Minimalis Modern",
-    img: `/img/minimalis modern/mm${i}.png`,
+    title: "American 1 Lantai",
+    tag: "American 1 Lantai",
+    img: `/reverensi design/img/American 1 Lantai/am (${i}).jpeg`,
   });
 }
 
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 80; i++) {
   portfolioItems.push({
-    title: "Ndiepraz",
-    title1: "Perumahan Pelangi Kota Tasikmalaya",
-    tag: "Skandinavian",
-    img: `/img/Skandinavian/sc${i}.png`,
+    title: "Classic Modern 1 Lantai",
+    tag: "Classic Modern 1 Lantai",
+    img: `/reverensi design/img/Classic Modern 1 Lantai/cm (${i}).jpeg`,
   });
 }
 
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 11; i++) {
   portfolioItems.push({
-    title: "Audio",
-    title1: "Sari Wangi Kab.Tasikmalaya",
-    tag: "Pedesaan",
-    img: `/img/Pedesaan/pd${i}.png`,
+    title: "Kontomporer",
+    tag: "Kontomporer",
+    img: `/reverensi design/img/Kontomporer/kt (${i}).jpeg`,
   });
 }
-
-for (let i = 1; i <= 4; i++) {
+for (let i = 1; i <= 5; i++) {
   portfolioItems.push({
-    title: "HJ.Ayud",
-    title1: "Salam Nunggal Kota Tasikmalaya",
-    tag: "Classic1",
-    img: `/img/classic1/c${i}.png`,
+    title: "Minimalis",
+    tag: "Minimalis",
+    img: `/reverensi design/img/Minimalis/min (${i}).jpeg`,
   });
 }
-
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 34; i++) {
   portfolioItems.push({
-    title: "HJ.Asep",
-    title1: "Sindang Kasih Kab.Ciamis",
-    tag: "Classic2",
-    img: `/img/classic2/cs${i}.png`,
+    title: "Minimalis 1 Lantai",
+    tag: "Minimalis 1 Lantai",
+    img: `/reverensi design/img/Minimalis 1 Lantai/mn (${i}).jpeg`,
   });
 }
-
+for (let i = 1; i <= 25; i++) {
+  portfolioItems.push({
+    title: "Minimalis Modern 1 Lantai",
+    tag: "Minimalis Modern 1 Lantai",
+    img: `/reverensi design/img/Minimalis Modern 1 Lantai/mm (${i}).jpeg`,
+  });
+}
+for (let i = 1; i <= 19; i++) {
+  portfolioItems.push({
+    title: "Scandinavian 1 Lantai",
+    tag: "Scandinavian 1 Lantai",
+    img: `/reverensi design/img/Scandinavian 1 Lantai/s (${i}).jpeg`,
+  });
+}
 for (let i = 1; i <= 6; i++) {
   portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
-    tag: "Kontemporer1",
-    img: `/img/kontemporer1/kt${i}.png`,
+    title: "Scandinavian 2 Lantai",
+    tag: "Scandinavian 2 Lantai",
+    img: `/reverensi design/img/Scandinavian 2 Lantai/sc (${i}).jpeg`,
   });
 }
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 8; i++) {
   portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
-    tag: "Kontemporer2",
-    img: `/img/kontemporer2/kt${i}.png`,
-  });
-}
-for (let i = 1; i <= 4; i++) {
-  portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
-    tag: "Kontemporer3",
-    img: `/img/kontemporer3/kt${i}.png`,
-  });
-}
-for (let i = 1; i <= 5; i++) {
-  portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
-    tag: "Kontemporer4",
-    img: `/img/kontemporer4/kt${i}.png`,
+    title: "Tropis Modern 1 Lantai",
+    tag: "Tropis Modern 1 Lantai",
+    img: `/reverensi design/img/Tropis Modern 1 Lantai/tm (${i}).jpeg`,
   });
 }
 
@@ -123,7 +110,6 @@ const renderPortfolio = (filter = "all") => {
     div.innerHTML = `
       <img src="${item.img}" alt="${item.title}">
       <h4>${item.title}</h4>
-      <p>${item.title1}</P>
     `;
     portfolioGrid.appendChild(div);
 
@@ -131,12 +117,6 @@ const renderPortfolio = (filter = "all") => {
     div.addEventListener("click", () => {
       const specificTag = item.tag; // pakai tag kedua: Classic / Skandinavian / Content Corer dll
       currentGroup = portfolioItems.filter((p) => p.tag === specificTag);
-
-      // === PRELOAD semua gambar dalam group ===
-      currentGroup.forEach((p) => {
-        const preload = new Image();
-        preload.src = p.img;
-      });
 
       // cari index sesuai gambar perwakilan yang diklik
       currentIndex = currentGroup.findIndex((p) => p.img === item.img);
@@ -179,6 +159,17 @@ portfolioModal.addEventListener("click", (e) => {
 
 // render awal
 renderPortfolio();
+
+// filter tombol
+document.querySelectorAll(".filter-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document
+      .querySelectorAll(".filter-btn")
+      .forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderPortfolio(btn.dataset.filter);
+  });
+});
 
 // nomor WA admin (ganti dengan nomor kamu, pakai kode negara tanpa +)
 const adminNumber = "6281381300825";
