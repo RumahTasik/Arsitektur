@@ -3,7 +3,7 @@ for (let i = 1; i <= 22; i++) {
   portfolioItems.push({
     title: "American 1 Lantai",
     tag: "American 1 Lantai",
-    img: `/reverensi design/img/American 1 Lantai/am (${i}).jpeg`,
+    img: `/reverensi-design/img/American 1 Lantai/am (${i}).jpeg`,
   });
 }
 
@@ -11,58 +11,118 @@ for (let i = 1; i <= 80; i++) {
   portfolioItems.push({
     title: "Classic Modern 1 Lantai",
     tag: "Classic Modern 1 Lantai",
-    img: `/reverensi design/img/Classic Modern 1 Lantai/cm (${i}).jpeg`,
+    img: `/reverensi-design/img/Classic Modern 1 Lantai/cm (${i}).jpeg`,
   });
 }
 
 for (let i = 1; i <= 11; i++) {
   portfolioItems.push({
-    title: "Kontomporer",
-    tag: "Kontomporer",
-    img: `/reverensi design/img/Kontomporer/kt (${i}).jpeg`,
+    title: "Kontemporer 1 Lantai",
+    tag: "Kontemporer",
+    img: `/reverensi-design/img/Kontomporer/kt (${i}).jpeg`,
   });
 }
 for (let i = 1; i <= 5; i++) {
   portfolioItems.push({
     title: "Minimalis",
     tag: "Minimalis",
-    img: `/reverensi design/img/Minimalis/min (${i}).jpeg`,
+    img: `/reverensi-design/img/Minimalis/min (${i}).jpeg`,
   });
 }
 for (let i = 1; i <= 34; i++) {
   portfolioItems.push({
     title: "Minimalis 1 Lantai",
     tag: "Minimalis 1 Lantai",
-    img: `/reverensi design/img/Minimalis 1 Lantai/mn (${i}).jpeg`,
+    img: `/reverensi-design/img/Minimalis 1 Lantai/mn (${i}).jpeg`,
   });
 }
 for (let i = 1; i <= 25; i++) {
   portfolioItems.push({
     title: "Minimalis Modern 1 Lantai",
     tag: "Minimalis Modern 1 Lantai",
-    img: `/reverensi design/img/Minimalis Modern 1 Lantai/mm (${i}).jpeg`,
+    img: `/reverensi-design/img/Minimalis Modern 1 Lantai/mm (${i}).jpeg`,
   });
 }
 for (let i = 1; i <= 19; i++) {
   portfolioItems.push({
     title: "Scandinavian 1 Lantai",
     tag: "Scandinavian 1 Lantai",
-    img: `/reverensi design/img/Scandinavian 1 Lantai/s (${i}).jpeg`,
+    img: `/reverensi-design/img/Scandinavian 1 Lantai/s (${i}).jpeg`,
   });
 }
 for (let i = 1; i <= 6; i++) {
   portfolioItems.push({
     title: "Scandinavian 2 Lantai",
     tag: "Scandinavian 2 Lantai",
-    img: `/reverensi design/img/Scandinavian 2 Lantai/sc (${i}).jpeg`,
+    img: `/reverensi-design/img/Scandinavian 2 Lantai/sc (${i}).jpeg`,
   });
 }
 for (let i = 1; i <= 8; i++) {
   portfolioItems.push({
     title: "Tropis Modern 1 Lantai",
     tag: "Tropis Modern 1 Lantai",
-    img: `/reverensi design/img/Tropis Modern 1 Lantai/tm (${i}).jpeg`,
+    img: `/reverensi-design/img/Tropis Modern 1 Lantai/tm (${i}).jpeg`,
   });
+
+  for (let i = 1; i <= 28; i++) {
+    portfolioItems.push({
+      title: "Classic Modern 2 Lantai",
+      tag: "Reverensi 2 Lantai, Classic Modern 1 Lantai",
+      img: `/reverensi-design/img/reverensi-2-lantai/classic-modern/cm${i}.jpeg`,
+    });
+  }
+
+  for (let i = 1; i <= 12; i++) {
+    portfolioItems.push({
+      title: "Industrial 2 Lantai",
+      tag: "Reverensi 2 Lantai",
+      img: `/reverensi-design/img/reverensi-2-lantai/industrial/i${i}.jpeg`,
+    });
+  }
+
+  for (let i = 1; i <= 27; i++) {
+    portfolioItems.push({
+      title: "Scandanavian 2 Lantai",
+      tag: "Reverensi 2 Lantai, Scandinavian 2 Lantai",
+      img: `/reverensi-design/img/reverensi-2-lantai/scandanavian/sc${i}.jpeg`,
+    });
+  }
+
+  for (let i = 1; i <= 3; i++) {
+    portfolioItems.push({
+      title: "Minimalis 2 Lantai",
+      tag: "Reverensi 2 Lantai, Minimalis",
+      img: `/reverensi-design/img/reverensi-2-lantai/minimalis/m${i}.jpeg`,
+    });
+  }
+  for (let i = 1; i <= 7; i++) {
+    portfolioItems.push({
+      title: "American 2 Lantai",
+      tag: "Reverensi 2 Lantai, American 1 Lantai",
+      img: `/reverensi-design/img/reverensi-2-lantai/american/am${i}.jpeg`,
+    });
+  }
+  for (let i = 1; i <= 5; i++) {
+    portfolioItems.push({
+      title: "Tropis Modern 2 Lantai",
+      tag: "Reverensi 2 Lantai, Tropis Modern 1 Lantai",
+      img: `/reverensi-design/img/reverensi-2-lantai/tropis/t${i}.jpeg`,
+    });
+  }
+  for (let i = 1; i <= 9; i++) {
+    portfolioItems.push({
+      title: "Coffe shop",
+      tag: " Reverensi 2 Lantai",
+      img: `/reverensi-design/img/reverensi-2-lantai/coffe-shope/cf${i}.jpeg`,
+    });
+  }
+  for (let i = 1; i <= 35; i++) {
+    portfolioItems.push({
+      title: "Kontemporer 2 Lantai",
+      tag: "Reverensi 2 Lantai, Kontemporer",
+      img: `/reverensi-design/img/reverensi-2-lantai/kontemporer/kt${i}.jpeg`,
+    });
+  }
 }
 
 // ==== PORTFOLIO GRID + MODAL ====
