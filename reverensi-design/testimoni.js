@@ -96,7 +96,7 @@ for (let i = 1; i <= 49; i++) {
     img: `/reverensi-design/img/reverensi-2-lantai/minimalis/m${i}.jpeg`,
   });
 }
-for (let i = 1; i <= 106; i++) {
+for (let i = 1; i <= 57; i++) {
   portfolioItems.push({
     title: "American 2 Lantai",
     tag: "Reverensi 2 Lantai, American 1 Lantai",
