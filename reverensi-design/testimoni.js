@@ -137,7 +137,7 @@ for (let i = 1; i <= 3; i++) {
   portfolioItems.push({
     title: "Ruko",
     tag: " Ruko, Reverensi 2 Lantai",
-    img: `/reverensi-design/img/reverensi-2-lantai/ruko/r${i}.jpeg`,
+    img: `/reverensi-design/img/reverensi-2-lantai/Ruko/r${i}.jpeg`,
   });
 }
 
