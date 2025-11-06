@@ -55,28 +55,98 @@ for (let i = 1; i <= 6; i++) {
 }
 for (let i = 1; i <= 5; i++) {
   portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
+    title: "",
+    title1: "Cisaga",
     tag: "Kontemporer2",
     img: `/img/kontemporer2/kt${i}.png`,
   });
 }
 for (let i = 1; i <= 4; i++) {
   portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
+    title: "",
+    title1: "Cigalontang",
     tag: "Kontemporer3",
     img: `/img/kontemporer3/kt${i}.png`,
   });
 }
 for (let i = 1; i <= 5; i++) {
   portfolioItems.push({
-    title: "Ny.Endro",
-    title1: "Kawali Kab.Ciamis",
+    title: "",
+    title1: "Cintaraja",
     tag: "Kontemporer4",
     img: `/img/kontemporer4/kt${i}.png`,
   });
 }
+
+for (let i = 1; i <= 1; i++) {
+  portfolioItems.push({
+    title: "",
+    title1: "Cigalonta",
+    tag: "CIGALONTA",
+    img: `/img/CIGALONTA/CG${i}.jpg`,
+  });
+}
+
+for (let i = 1; i <= 22; i++) {
+  portfolioItems.push({
+    title: "",
+    title1: "Buniseri",
+    tag: "Buniseri",
+    img: `/img/BUNISERI/BN${i}.jpg`,
+  });
+}
+
+for (let i = 1; i <= 31; i++) {
+  portfolioItems.push({
+    title: "",
+    title1: "Cikunir",
+    tag: "Cikunir",
+    img: `/img/CIKUNIR/CK${i}.jpg`,
+  });
+}
+
+for (let i = 1; i <= 16; i++) {
+  portfolioItems.push({
+    title: "",
+    title1: "Kawalu",
+    tag: "Kawalu",
+    img: `/img/KAWALU/KW${i}.jpg`,
+  });
+}
+
+for (let i = 1; i <= 25; i++) {
+  portfolioItems.push({
+    title: "",
+    title1: "Melatimas",
+    tag: "Metalimas",
+    img: `/img/MELATIMAS/MT${i}.jpg`,
+  });
+}
+
+for (let i = 1; i <= 40; i++) {
+  portfolioItems.push({
+    title: "",
+    title1: "Sukarame",
+    tag: "Sukarame",
+    img: `/img/SUKARAME/SK${i}.jpg`,
+  });
+}
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (e) {
+  if (!e.target.matches(".dropbtn")) {
+    var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains("show")) {
+      myDropdown.classList.remove("show");
+    }
+  }
+};
 
 // ==== PORTFOLIO GRID + MODAL ====
 const portfolioGrid = document.getElementById("portfolioGrid");

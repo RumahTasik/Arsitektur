@@ -96,7 +96,7 @@ for (let i = 1; i <= 49; i++) {
     img: `/reverensi-design/img/reverensi-2-lantai/minimalis/m${i}.jpeg`,
   });
 }
-for (let i = 1; i <= 106; i++) {
+for (let i = 1; i <= 57; i++) {
   portfolioItems.push({
     title: "American 2 Lantai",
     tag: "Reverensi 2 Lantai, American 1 Lantai",
@@ -136,10 +136,26 @@ for (let i = 1; i <= 38; i++) {
 for (let i = 1; i <= 3; i++) {
   portfolioItems.push({
     title: "Ruko",
-    tag: "Ruko, Reverensi 2 Lantai",
-    img: `/reverensi-design/img/reverensi-2-lantai/ruko/r${i}.jpeg`,
+    tag: " Ruko, Reverensi 2 Lantai",
+    img: `/reverensi-design/img/reverensi-2-lantai/Ruko/r${i}.jpeg`,
   });
 }
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (e) {
+  if (!e.target.matches(".dropbtn")) {
+    var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains("show")) {
+      myDropdown.classList.remove("show");
+    }
+  }
+};
 
 // ==== PORTFOLIO GRID + MODAL ====
 const portfolioGrid = document.getElementById("portfolioGrid");
